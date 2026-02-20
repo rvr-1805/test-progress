@@ -8,7 +8,6 @@ const Authentication = () => {
 
   const [form, setForm] = useState({
     name: "",
-    email: "",
     password: "",
     confirmPassword: "",
   });
