@@ -1,6 +1,4 @@
-// AdminDashboard.jsx
 import React from "react";
-
 const AdminDashboard = () => {
   return (
     <div style={{ padding: "20px" }}>
@@ -15,5 +13,4 @@ const AdminDashboard = () => {
     </div>
   );
 };
-
 export default AdminDashboard;
