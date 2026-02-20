@@ -1,4 +1,7 @@
 import React from "react";
+import CollaborationPanel from "./CollaborationPanel";
+import WorkflowTracker from "./WorkflowTracker";
+
 const AdminDashboard = () => {
   return (
     <div style={{ padding: "20px" }}>
@@ -10,6 +13,8 @@ const AdminDashboard = () => {
         <button>Batches</button>
         <button>Fees</button>
       </div>
+      <CollaborationPanel />
+      <WorkflowTracker />
     </div>
   );
 };
